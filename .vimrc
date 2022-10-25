@@ -16,6 +16,6 @@ augroup END
 
 nnoremap <space> za
 
-"let @f='o$$\\ýahh'
+" Copies the following {} block to system register
 let @f='0vf{%$"+y'
-:nmap ;f @f
+":nmap ;f @f
