@@ -1,0 +1,2 @@
+// select a default terminal
+sudo update-alternatives --config x-terminal-emulator
