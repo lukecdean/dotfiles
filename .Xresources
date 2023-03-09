@@ -3,3 +3,10 @@ xterm*faceSize: 14
 xterm*vt100*geometry: 80x50
 xterm*foreground: rgb:FF/FF/FF
 xterm*background: rgb:00/00/00
+Xft.dpi: 160
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
