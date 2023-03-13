@@ -1,2 +1,7 @@
 // select a default terminal
 sudo update-alternatives --config x-terminal-emulator
+
+// get connected monitors
+xrandr -q | grep ' connected' | head -n 1 | cut -d ' ' -f1
+// adjust screen brightness
+xrandr --output eDP-1 --brightness 0.7

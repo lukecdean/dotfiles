@@ -1,11 +1,11 @@
 // These are for adjusting sizes in xterm
 xterm*faceName: Monospace
-xterm*faceSize: 11
+xterm*faceSize: 14
 xterm*vt100*geometry: 80x50
 xterm*foreground: rgb:FF/FF/FF
 xterm*background: rgb:00/00/00
 // These are for adjusting sizes in i3
-Xft.dpi: 160
+Xft.dpi: 120
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
 Xft.hintstyle:  hintfull
