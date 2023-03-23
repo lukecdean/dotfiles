@@ -19,6 +19,8 @@ nnoremap <space> za
 " Copies the following {} block to system register
 let @f='0vf{%$"+y'
 ":nmap ;f @f
+" Copies from mark v to mark g
+let @g='`v"+y`g'
 
 " Highlight text over column 80
 if has("autocmd")
