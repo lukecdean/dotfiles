@@ -5,6 +5,10 @@ set number relativenumber
 filetype plugin indent on
 set tabstop=4 shiftwidth=4 expandtab
 
+" no auto comment cont
+set fo+=ro
+set fo-=ro
+
 " show trailing whitespace
 "set list listchars=trail:.,extends:>
 
@@ -18,7 +22,6 @@ nnoremap <space> za
 
 " Copies the following {} block to system register
 let @f='0vf{%$"+y'
-":nmap ;f @f
 " Copies from mark v to mark g
 let @g='`v"+y`g'
 
@@ -26,8 +29,7 @@ let @g='`v"+y`g'
 if has("autocmd")
     augroup module
         autocmd BufRead,BufNewFile *.java match ErrorMsg '\%>80v.\+'
+        autocmd BufRead,BufNewFile *.c match ErrorMsg '\%>80v.\+'
     augroup END
 endif
 
-" no auto comment cont
-set fo-=ro

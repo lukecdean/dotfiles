@@ -5,3 +5,7 @@ sudo update-alternatives --config x-terminal-emulator
 xrandr -q | grep ' connected' | head -n 1 | cut -d ' ' -f1
 // adjust screen brightness
 xrandr --output eDP-1 --brightness 0.7
+
+packages for screenshot:
+xclip
+imagemagick
