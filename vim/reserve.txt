@@ -1,0 +1,14 @@
+" Highlight text over column 80
+if has("autocmd")
+    augroup module
+        autocmd BufRead,BufNewFile *.java match ErrorMsg '\%>80v.\+'
+        autocmd BufRead,BufNewFile *.c match ErrorMsg '\%>80v.\+'
+    augroup END
+endif
+
+augroup remember_folds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END
+
