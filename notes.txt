@@ -9,3 +9,6 @@ xrandr --output eDP-1 --brightness 0.7
 packages for screenshot:
 xclip
 imagemagick
+
+git tokens
+profile; settings; dev settings; personal access tokens (classic)
