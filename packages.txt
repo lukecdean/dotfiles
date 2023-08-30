@@ -1,0 +1,3 @@
+xclip
+    for piping to the clipboard
+        $pwd | xclip

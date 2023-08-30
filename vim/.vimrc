@@ -15,7 +15,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 nnoremap <space> za
 
 " Copies the following {} block to system register
-let @f='0v/{%$"+y'
+let @f='0v/{%$"+y'
 " /let @f='0vf{%$"+y'
 " Copies from mark v to mark g
 let @g='`v"+y`g'
