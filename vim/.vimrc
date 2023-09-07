@@ -19,3 +19,6 @@ let @f='0v/{%$"+y'
 " /let @f='0vf{%$"+y'
 " Copies from mark v to mark g
 let @g='`v"+y`g'
+
+" g( places () around the v-selected region
+xnoremap g( <ESC>`>a)<ESC>`<i(<ESC>
