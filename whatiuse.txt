@@ -1,0 +1,9 @@
+i3
+notes.txt
+packages.txt
+README.md
+scripts
+tmux
+vim
+x
+xclip
