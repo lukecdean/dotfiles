@@ -12,3 +12,18 @@ imagemagick
 
 git tokens
 profile; settings; dev settings; personal access tokens (classic)
+
+Making a partition
+$sudo fdisk -l // see all disk/partition info
+$sudo fdisk <path> // likely /dev/sda
+$n // new partition
+    // probably choose primary
+$<enter> // to choose the first available sector
+$<enter/+<sectors>/+<amount><unit>> // all remaining space / sectors / size in bytes
+// default partition id is 'Linux'
+// to change id, use 't'
+$w // write changes to disk
+Formatting a partition
+$sudo mkfs // see mkfs commands
+// mkfs is an abstraction for other filesystem commands
+$ sudo mkfs.ext4 // for ext4
