@@ -27,3 +27,7 @@ Formatting a partition
 $sudo mkfs // see mkfs commands
 // mkfs is an abstraction for other filesystem commands
 $ sudo mkfs.ext4 // for ext4
+
+set vim as the default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
