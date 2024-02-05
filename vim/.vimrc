@@ -1,3 +1,6 @@
+" show command as it's being entered
+set showcmd
+
 " enable line numbers
 set number relativenumber
 
