@@ -1,0 +1,5 @@
+sudo apt install xterm 
+
+// select a default terminal
+sudo update-alternatives --config x-terminal-emulator
+// select uxterm
