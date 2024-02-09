@@ -25,3 +25,6 @@ let @g='`v"+y`g'
 
 " g( places () around the v-selected region
 xnoremap g( <ESC>`>a)<ESC>`<i(<ESC>
+
+" use the clipboard
+set clipboard=unnamedplus
