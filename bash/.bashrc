@@ -121,6 +121,8 @@ fi
 export VISUAL=vim
 export editor="$VISUAL"
 
+alias v='vim'
+
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
