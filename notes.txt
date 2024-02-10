@@ -1,11 +1,20 @@
+// get xterm
+sudo apt install xterm 
 // select a default terminal
 sudo update-alternatives --config x-terminal-emulator
+    // select uxterm
+// set vim as the default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+// enable clipboard on vim
+set clipboard=unnamedplus
 
 // get connected monitors
 xrandr -q | grep ' connected' | head -n 1 | cut -d ' ' -f1
 // adjust screen brightness
 xrandr --output eDP-1 --brightness 0.7
 
+// I don't think I use these anymore
 packages for screenshot:
 xclip
 imagemagick
@@ -27,7 +36,3 @@ Formatting a partition
 $sudo mkfs // see mkfs commands
 // mkfs is an abstraction for other filesystem commands
 $ sudo mkfs.ext4 // for ext4
-
-set vim as the default editor
-export VISUAL=vim
-export EDITOR="$VISUAL"
