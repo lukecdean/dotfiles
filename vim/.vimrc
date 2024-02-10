@@ -28,3 +28,10 @@ xnoremap g( <ESC>`>a)<ESC>`<i(<ESC>
 
 " use the clipboard
 set clipboard=unnamedplus
+
+" save folds on exit and load on enter
+augroup remember_folds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END
