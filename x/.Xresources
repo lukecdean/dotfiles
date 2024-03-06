@@ -9,7 +9,7 @@ xterm*color0: rgb:00/00/00
 xterm*color1: rgb:FF/00/00
 xterm*color2: rgb:00/FF/00
 xterm*color3: rgb:FF/FF/00
-xterm*color4: rgb:AA/AA/FF
+xterm*color4: rgb:00/FF/FF
 xterm*color5: rgb:FF/00/FF
 xterm*color6: rgb:00/FF/FF
 xterm*color7: rgb:FF/FF/FF
@@ -17,7 +17,7 @@ xterm*color8: rgb:00/00/00
 xterm*color9: rgb:FF/00/00
 xterm*color10: rgb:00/FF/00
 xterm*color11: rgb:FF/FF/00
-xterm*color12: rgb:AA/AA/FF
+xterm*color12: rgb:00/FF/FF
 xterm*color13: rgb:FF/00/FF
 xterm*color14: rgb:00/FF/FF
 xterm*color15: rgb:FF/FF/FF
