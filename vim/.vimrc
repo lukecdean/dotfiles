@@ -35,3 +35,7 @@ augroup remember_folds
   autocmd BufWinLeave * mkview
   autocmd BufWinEnter * silent! loadview
 augroup END
+
+" highlight line 81
+hi Bang ctermbg=red
+match Bang /\%>79v.*\%<81v/
