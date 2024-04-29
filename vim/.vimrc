@@ -7,7 +7,7 @@ set number relativenumber
 " handle tabs and indents
 filetype plugin indent on
 set tabstop=4 shiftwidth=4 expandtab
-autocmd FileType md setlocal shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType markdown setlocal shiftwidth=2 softtabstop=2 expandtab
 
 " no auto comment cont
 "set fo-=ro
